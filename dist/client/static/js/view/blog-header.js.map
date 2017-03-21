@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../../client/static/js/view/blog-header.js"],"names":["Header","createClass"],"mappings":";;AACA;;;;;;AAEA,IAAIA,SAAS,gBAAMC,WAAN,CAAkB,EAAlB,CAAb","file":"blog-header.js","sourcesContent":["\r\nimport React from 'react';\r\n\r\nvar Header = React.createClass({\r\n\r\n});\r\n\r\n\r\n\r\n"]}

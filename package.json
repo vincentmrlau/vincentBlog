@@ -1,0 +1,40 @@
+{
+  "name": "node-react-blog",
+  "version": "1.0.0",
+  "description": "vincent personal blog -react-webpack-node",
+  "main": "index.js",
+  "scripts": {
+    "webpack_watch": "webpack --watch",
+    "start": "node app.js",
+    "app_test": "nodemon app.js",
+    "gulp_serve": "gulp serve",
+    "test": "concurrent  \"npm run app_test\" \"npm run webpack_watch\"  \"npm run gulp_serve\""
+  },
+  "author": "Vincent Lau",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-runtime": "^6.20.0",
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "css-loader": "^0.26.1",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "jsx-loader": "^0.13.2",
+    "multer": "^1.2.1",
+    "mysql": "^2.12.0",
+    "nodemon": "^1.11.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.14.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.6",
+    "gulp": "^3.9.1"
+  }
+}

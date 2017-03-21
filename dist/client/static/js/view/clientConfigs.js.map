@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../../client/static/js/view/clientConfigs.js"],"names":["config","domain"],"mappings":";;;;;AAAA;;;AAGA,IAAIA,SAAS;AACTC,UAAO;AADE,CAAb;;kBAIeD,M","file":"clientConfigs.js","sourcesContent":["/**\r\n * Created by 41389 on 2017/1/17.\r\n */\r\nvar config = {\r\n    domain:\"http://192.168.1.104:3000\"\r\n}\r\n\r\nexport default config;\r\n"]}

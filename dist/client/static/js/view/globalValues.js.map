@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../../client/static/js/view/globalValues.js"],"names":["mudule","exports","domain"],"mappings":";;AAAA;;;AAGAA,OAAOC,OAAP,GAAiB;AACbC,UAAO;AADM,CAAjB","file":"globalValues.js","sourcesContent":["/**\r\n * Created by 41389 on 2017/1/17.\r\n */\r\nmudule.exports = {\r\n    domain:\"http://127.0.0.1:3000\"\r\n}\r\n"]}
